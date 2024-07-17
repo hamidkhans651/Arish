@@ -21,6 +21,8 @@ const Navbar = () => {
 
                 <div className="flex-1 flex justify-between items-center">
                 </div>
+
+                hamid
                 <label htmlFor="menu-toggle" className="pointer-cursor lg:hidden block">
                     <svg className="fill-current text-gray-900"
                         xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
