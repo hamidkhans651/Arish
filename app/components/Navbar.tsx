@@ -11,7 +11,7 @@ const Navbar = () => {
                     {['arish-icon-logo'].map((path) => {
                         return (
                             <div className='' key={path}>
-                                <Image src={`/${path}.png`}
+                                <Image src={`/${path}.PNG`}
                                     alt="Logo" width={100} height={100} />
                             </div>
                         )
@@ -37,7 +37,7 @@ const Navbar = () => {
                         <ul id='catogrieslinks' className='flex gap-6 md:text-sm  '>
                             {categoryieslinks.map((links) =>
                                 <li key={links.label}>
-                                    <a href="{item.label}" className='flex font-Helvetica-Now-Text-Medium text-white text-md leading-7'>
+                                    <a href="{item.label}" className='flex font-Helvetica-Now-Text-Medium text-black text-md leading-7'>
                                         {links.label}
                                     </a>
                                 </li>

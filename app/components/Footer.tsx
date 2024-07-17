@@ -73,7 +73,7 @@ const Footer = () => {
 
 
 
-            <div id="social-media links" className="flex gap-3 justify-between px-4 ">
+            <div id="social-media links" className="flex gap-3 justify-between px-4 text-black ">
                 <span className="flex justify-between sm:tex-sm">
                     © 2015 - 2024 Lodhia Gypsum Industries (PVT.) Ltd. - All Rights Reserved
                 </span>
