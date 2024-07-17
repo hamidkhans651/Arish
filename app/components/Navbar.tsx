@@ -2,23 +2,28 @@ import React from 'react'
 import Image from 'next/image'
 import { navlinks } from '../Constants/indext'
 import { categoryieslinks } from '../Constants/indext'
+import logo from './arish-icon-logo.png'
+
 
 const Navbar = () => {
     return (
         <div>
             <header className="lg:px-10 px-4  bg-white flex flex-wrap items-center py-4 shadow-md ">
-                <div className=" flex text-xl justify-start ">
-                    {['arish-icon-logo'].map((path) => {
+                {/* <div className=" flex text-xl justify-start ">
+                    {['arish-icon-logo'].map((public) => {
                         return (
-                            <div className='' key={path}>
-                                <Image src={`/${path}.PNG`}
+                            <div className='' key={public}>
+                                <Image src={`/${public}.PNG`}
                                     alt="Logo" width={100} height={100} />
                             </div>
                         )
                     })}
-                  
-                </div>
-
+                   
+                </div> */}
+                <Image alt='logo' src={logo}
+                width={100}
+                height={100}/>
+                
                 <div className="flex-1 flex justify-between items-center">
                 </div>
 
